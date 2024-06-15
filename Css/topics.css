@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    background-image: url(Images/topicsbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: relative;
+    z-index: 10;
+}
+
+.logo {
+    height: 135px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.nav-text {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-text li {
+    margin: 0 20px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.nav-text a {
+    color: #000;
+    text-decoration: none;
+    transition: all .40s ease;
+}
+
+.nav-text a:hover {
+    color: #a08e73;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.column {
+    flex: 1;
+    padding: 10px 20px;
+}
+
+.pvid {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.pvid video {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.text-column {
+    flex: 2;
+    text-align: justify;
+    margin-right: 2%;
+
+}
+
+.text-column h1{
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.text-column p{
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 1%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.text-column h4{
+    color: #fff;
+    font-size: 22px;
+    margin-top: 3%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.text-column a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.text-column h4:hover{
+    color: #ccc;
+}
+
+.aud {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.aud audio {
+    margin-bottom: 10px;
+}
+
+.aud h2 {
+    font-size: 16px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}

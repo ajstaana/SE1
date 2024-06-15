@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #e3c798;
+    font-family: 'Poppins','sans-serif';
+    background-image:url(1.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 1275px;
+    
+    
+}
+.container {
+    width: 60%; /* Adjust the width as necessary */
+    margin: 0 auto; /* Center the .content div horizontally */
+    text-align: center; /* Center text within the .content div */
+    margin-top: 6%;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: relative;
+    z-index: 10;
+}
+
+.logo {
+    height: 135px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.nav-text {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-text li {
+    margin: 0 20px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.nav-text a {
+    color: #000;
+    text-decoration: none;
+    transition: all .40s ease;
+}
+
+.nav-text a:hover {
+    color: #a08e73;
+}
+
+content{
+    font-weight: 100;
+    margin-top: 200px;
+    align-items: center;
+}
+
+
+#about{
+    margin-top: auto;
+    font-weight: 500;
+    text-align:justify;
+    color: #000000;
+    margin-left: -60px;
+    
+    
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+h4{
+    width:850px;
+    text-align: justify;
+    font-weight: 600;
+}
+
+section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.team{
+    text-align: center;
+    margin-top:400px;
+}
+.members{
+    
+    text-align: center;
+    margin-top: 50px;
+    font-size: 21px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    
+}
