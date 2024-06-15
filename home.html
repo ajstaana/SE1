@@ -1,0 +1,71 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="style.css" rel="stylesheet">
+        </head>
+
+        <body>
+            <div class="navbar">
+                <a href="index.html"><img src="Images/logo.png" class="logo"></a>
+                <ul class="nav-text">
+                    <li><b><a href="home.html">Home</a></b></li>
+                    <li><b><a href="#history-section">History</a></b></li>
+                    <li><b><a href="about.html">About</a></b></li>
+                    <li><b><a href="contact.html">Contact</a></b></li>
+                </ul>
+            </div>
+
+        <section class="bg">
+            <img src="Images/eagle.png" id="eagle">
+            <img src="Images/mountain.png" id="mountain">
+            <img src="Images/textile.png" id="textile">
+            <h2 id="h2">Remembering the Past</h2>
+        </section>  
+
+        
+        <h1 id="history-section" class="history-title">History</h1>
+
+        <div class="row">
+            <div class="col">
+                <a href="spanish.html">
+                    <img src="Images/spanishrule.png" class="sr">
+                    <h2>Spanish Rule (1521 - 1898)</h2>
+                </a>
+            </div>
+            <div class="col">
+                <a href="american.html">
+                    <img src="Images/americanrule.png">
+                    <h2>American Rule (1898 - 1946)</h2>
+                </a>
+            </div>
+            <div class="col">
+                <a href="japan.html">
+                    <img src="Images/japaneseocc.png">
+                    <h2>Japanese Occupation (1941 - 1946)</h2>
+                </a>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+        <script>
+            window.addEventListener('scroll', function() {
+                let scrollPosition = window.pageYOffset;
+                
+                document.getElementById('h2').style.transform = `translateY(${scrollPosition * 0.6}px)`;
+                document.getElementById('eagle').style.transform = `translateY(${scrollPosition * 0.3}px)`;
+                document.getElementById('mountain').style.transform = `translateY(${scrollPosition * 0.2}px)`;
+                document.getElementById('textile').style.transform = `translateY(${scrollPosition * 0.1}px)`;
+            });
+        </script>
+        </body>
+    </html>
